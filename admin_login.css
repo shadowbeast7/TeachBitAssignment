@@ -1,0 +1,104 @@
+body  
+{  
+    margin: 0;  
+    padding: 0; 
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); 
+    /* background-color:#6abadeba;   */
+    /* font-family: 'Arial';  */
+    background-position: center;
+	background-size:auto;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; 
+}  
+.login{  
+        /* width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;   */
+        width: 420px;
+		height:auto;
+		background: #000;
+		color: #fff;
+		top:60%;
+		left:50%; 
+		position:absolute;
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		padding: 70px 30px;
+        box-shadow:  0 0 15px 5px rgba(0,0,0,0.7);
+        /* box-shadow: 0 0 20px 4px; */
+          
+}  
+h2{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;
+    text-decoration: solid;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+label{ 
+    margin: 0;
+    padding: 0; 
+    color: #fff;  
+    font-size: 17px;
+    font-weight: bold
+    /* font-family: Georgia, 'Times New Roman', Times, serif;  */
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+.log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: red;
+    color: wheat;
+  
+    
+ 
+}  
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: inline-end;  
+    background-color: whitesmoke;  
+}  
+button:hover{
+    background-color: #01ff70;
+    color: #000;
+}
+label:hover{
+    color: #01ff70;
+}
